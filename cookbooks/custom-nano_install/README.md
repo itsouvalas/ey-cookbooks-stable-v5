@@ -1,5 +1,5 @@
-nano_install Cookbook
-=====================
+custom-nano_install Cookbook
+============================
 TODO: Enter the cookbook description here.
 
 e.g.
@@ -11,14 +11,14 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 
 e.g.
 #### packages
-- `toaster` - nano_install needs toaster to brown your bagel.
+- `toaster` - custom-nano_install needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List your cookbook attributes here.
 
 e.g.
-#### nano_install::default
+#### custom-nano_install::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['nano_install']['bacon']</tt></td>
+    <td><tt>['custom-nano_install']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### nano_install::default
+#### custom-nano_install::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `nano_install` in your node's `run_list`:
+Just include `custom-nano_install` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[nano_install]"
+    "recipe[custom-nano_install]"
   ]
 }
 ```
